@@ -1,0 +1,68 @@
+{
+  "components": [
+    {
+      "text": "This is a sample Camunda User task form",
+      "type": "text",
+      "id": "Field_0on5fea",
+      "layout": {
+        "row": "Row_0jgaeax"
+      }
+    },
+    {
+      "text": "# CAPTCHA",
+      "type": "text",
+      "id": "Field_0hspg3y",
+      "layout": {
+        "row": "Row_1520qci"
+      }
+    },
+    {
+      "label": "Expression",
+      "type": "textfield",
+      "id": "Field_0zw73e5",
+      "key": "expression",
+      "properties": {},
+      "layout": {
+        "row": "Row_027itgh"
+      },
+      "readonly": false,
+      "disabled": true
+    },
+    {
+      "label": "Result",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_09gyvj0",
+        "columns": null
+      },
+      "id": "Field_0yfkzw9",
+      "key": "user_result",
+      "validate": {
+        "minLength": 1
+      },
+      "properties": {}
+    },
+    {
+      "action": "submit",
+      "label": "Check",
+      "type": "button",
+      "id": "Field_06dxrz8",
+      "key": "field_176zxn8",
+      "properties": {
+        "key1": "value"
+      },
+      "layout": {
+        "row": "Row_124f0zh"
+      }
+    }
+  ],
+  "schemaVersion": 16,
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.22.0"
+  },
+  "type": "default",
+  "id": "captcha-form",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0"
+}
