@@ -1,6 +1,6 @@
 # Camunda Sample
 
-![](/captcha.svg)
+![](captcha.svg)
 
 # Resources
 
